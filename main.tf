@@ -82,9 +82,6 @@ resource "aws_security_group" "webSg" {
   }
 }
 
-resource "aws_s3_bucket" "example" {
-  bucket = "jyothi2024task"
-}
 
 # EC2 Instance in the Public Subnet
 resource "aws_instance" "webserver" {
